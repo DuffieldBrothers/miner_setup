@@ -18,11 +18,7 @@ wget 45.55.192.222/conf/claymore_miner.tar.gz
 # set ssh and NX login
 mkdir ~/.ssh
 cp id_rsa_miner.pub ~/.ssh/authorized_keys
-<<<<<<< HEAD
 chmod 644 ~/.ssh/authorized_keys
-=======
-chmod 644 authorized_key
->>>>>>> c14695162e40449ac6522145a84aefda5b0a003d
 sudo dpkg -i nomachine_6.0.66_2_amd64.deb
 cp id_rsa_miner.pub ~/.nx/config/authorized.crt
 
